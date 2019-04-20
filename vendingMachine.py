@@ -40,13 +40,13 @@ def userChoiceLett():
 def userChoiceNum(array):
   choiceNum = input("Enter a number: ")
   if choiceNum == '2':
-    return('You bought '+choiceRow[0]+'!')
-  elif choiceNum == '3':
-    return('You bought '+choiceRow[1]+'!')
-  elif choiceNum == '4':
     return('You bought '+choiceRow[2]+'!')
+  elif choiceNum == '3':
+    return('You bought a '+choiceRow[3]+'!')
+  elif choiceNum == '4':
+    return('You bought '+choiceRow[4]+'!')
   elif choiceNum == '5':
-    return('You bought '+choiceRow[3]+'!')
+    return('You bought '+choiceRow[5]+'!')
   else:
     print("ERROR: INVALID INPUT")
     return userChoiceNum()
